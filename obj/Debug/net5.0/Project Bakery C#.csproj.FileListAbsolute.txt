@@ -1,0 +1,5 @@
+/Users/Wajma/Desktop/Project Bakery C#/obj/Debug/net5.0/Project Bakery C#.csproj.AssemblyReference.cache
+/Users/Wajma/Desktop/Project Bakery C#/obj/Debug/net5.0/Project Bakery C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Wajma/Desktop/Project Bakery C#/obj/Debug/net5.0/Project Bakery C#.AssemblyInfoInputs.cache
+/Users/Wajma/Desktop/Project Bakery C#/obj/Debug/net5.0/Project Bakery C#.AssemblyInfo.cs
+/Users/Wajma/Desktop/Project Bakery C#/obj/Debug/net5.0/Project Bakery C#.csproj.CoreCompileInputs.cache
