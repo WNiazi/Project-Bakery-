@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Wajma/Desktop/Project Bakery C#/Project Bakery C#.csproj": {}
+    "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/ProjectBakery.csproj": {}
   },
   "projects": {
-    "/Users/Wajma/Desktop/Project Bakery C#/Project Bakery C#.csproj": {
+    "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/ProjectBakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Wajma/Desktop/Project Bakery C#/Project Bakery C#.csproj",
-        "projectName": "Project Bakery C#",
-        "projectPath": "/Users/Wajma/Desktop/Project Bakery C#/Project Bakery C#.csproj",
+        "projectUniqueName": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/ProjectBakery.csproj",
+        "projectName": "ProjectBakery",
+        "projectPath": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/ProjectBakery.csproj",
         "packagesPath": "/Users/Wajma/.nuget/packages/",
-        "outputPath": "/Users/Wajma/Desktop/Project Bakery C#/obj/",
+        "outputPath": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Wajma/.nuget/NuGet/NuGet.Config"
