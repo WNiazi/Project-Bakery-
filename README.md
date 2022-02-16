@@ -1,4 +1,4 @@
-# Project_Pierre Bakery 
+# Project_Bakery 
 
 #### By Wajma Niazi
 
@@ -36,29 +36,6 @@ __All functionality for the models should be tested.
 * _dotnet build 
 * _dotnet run
 * _dotnet test (if you would like to test)
-
-
-
-## Testing
-``` 
-Describe: Creating a Object property and using it against the User's inputs.  
-```
-Test: It will bring in UserInput 
-Code: 
-        Console.WriteLine("How many pastries would you like? [1 - 10]");
-        string stringTempP = Console.ReadLine(1);
-        int inputtedPastriesAmount = 0;
-        Int32.TryParse(stringTempP, out inputtedPastriesAmount);
-Expected Output: 1  
-```
-Test: It will calculate the total bread/pastry.   
-Code: For Bread= Amount * 5 ; For Pastry=Amount *2; 
-Expected Output:  (5,2) 
-```
-Test: It will provide total. 
-Code: Bread + Pastry =7; 
-Expected Output: 7 
-```
 
 ## Known Bugs
 *_ None 

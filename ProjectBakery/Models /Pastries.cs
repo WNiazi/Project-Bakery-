@@ -5,11 +5,9 @@ namespace Bakery.Models
   public class Pastries
   {
     public int AmountPastries { get; set; }
-    public int CostPastries { get; set; }
     public Pastries(int amountPastries)
     {
       AmountPastries = amountPastries;
-      CostPastries = this.CalculateTotalPastries();
     }
     public int CalculateTotalPastries()
     {

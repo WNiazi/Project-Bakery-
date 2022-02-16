@@ -6919,11 +6919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery.Tests/ProjectBakery.Tests.csproj",
+      "projectUniqueName": "/Users/Wajma/Desktop/C#/Project_Bakery/ProjectBakery.Tests/ProjectBakery.Tests.csproj",
       "projectName": "ProjectBakery.Tests",
-      "projectPath": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery.Tests/ProjectBakery.Tests.csproj",
+      "projectPath": "/Users/Wajma/Desktop/C#/Project_Bakery/ProjectBakery.Tests/ProjectBakery.Tests.csproj",
       "packagesPath": "/Users/Wajma/.nuget/packages/",
-      "outputPath": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery.Tests/obj/",
+      "outputPath": "/Users/Wajma/Desktop/C#/Project_Bakery/ProjectBakery.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Wajma/.nuget/NuGet/NuGet.Config"
@@ -6938,8 +6938,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/ProjectBakery.csproj": {
-              "projectPath": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/ProjectBakery.csproj"
+            "/Users/Wajma/Desktop/C#/Project_Bakery/ProjectBakery/ProjectBakery.csproj": {
+              "projectPath": "/Users/Wajma/Desktop/C#/Project_Bakery/ProjectBakery/ProjectBakery.csproj"
             }
           }
         }
@@ -6982,7 +6982,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
       }
     }
   }

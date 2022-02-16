@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/ProjectBakery.csproj",
+      "projectUniqueName": "/Users/Wajma/Desktop/C#/Project_Bakery/ProjectBakery/ProjectBakery.csproj",
       "projectName": "ProjectBakery",
-      "projectPath": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/ProjectBakery.csproj",
+      "projectPath": "/Users/Wajma/Desktop/C#/Project_Bakery/ProjectBakery/ProjectBakery.csproj",
       "packagesPath": "/Users/Wajma/.nuget/packages/",
-      "outputPath": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery/obj/",
+      "outputPath": "/Users/Wajma/Desktop/C#/Project_Bakery/ProjectBakery/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Wajma/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
       }
     }
   }

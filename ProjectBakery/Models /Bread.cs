@@ -3,11 +3,9 @@ namespace Bakery.Models
   public class Bread
   {
     public int AmountBread { get; set; }
-    public int CostBread { get; set; }
     public Bread(int amountBread)
     {
       AmountBread = amountBread;
-      CostBread = this.CalculateTotalBread();
     }
     public int CalculateTotalBread()
     {

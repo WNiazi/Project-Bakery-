@@ -27,7 +27,7 @@ namespace Bakery.Tests
       int inputtedBreadAmount = 2;
       int cost = 10;
       Bread breadTotal = new Bread(inputtedBreadAmount);
-      int total = breadTotal.CostBread;
+      int total = breadTotal.CalculateTotalBread();
       Assert.AreEqual(cost, total);
     }
     [TestMethod]
@@ -36,7 +36,7 @@ namespace Bakery.Tests
       int inputtedBreadAmount = 3;
       int cost = 10;
       Bread breadTotal = new Bread(inputtedBreadAmount);
-      int total = breadTotal.CostBread;
+      int total = breadTotal.CalculateTotalBread();
       Assert.AreEqual(cost, total);
     }
     [TestMethod]
@@ -45,7 +45,7 @@ namespace Bakery.Tests
       int inputtedBreadAmount = 5;
       int cost = 20;
       Bread breadTotal = new Bread(inputtedBreadAmount);
-      int total = breadTotal.CostBread;
+      int total = breadTotal.CalculateTotalBread();
       Assert.AreEqual(cost, total);
     }
   }

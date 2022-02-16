@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLchEKz2dsuH+LW8Ws0RP0nykd6soWx7rzjJaXTO0rJqGQJoSg4nVL6UXYWIIN3YOpFHi4zBh3eFNwQvOX8e5A==",
+  "dgSpecHash": "YNY+BXt/SZtpgH8Me7/x+9oauCCDN4iVhPh4vL1wEECQr6/3rw9rzSvF8xjYZj8B3FQsoJU+U7vgO5mTSWDsWQ==",
   "success": true,
-  "projectFilePath": "/Users/Wajma/Desktop/Project_Bakery/ProjectBakery.Tests/ProjectBakery.Tests.csproj",
+  "projectFilePath": "/Users/Wajma/Desktop/C#/Project_Bakery/ProjectBakery.Tests/ProjectBakery.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/Wajma/.nuget/packages/microsoft.codecoverage/15.9.0/microsoft.codecoverage.15.9.0.nupkg.sha512",
     "/Users/Wajma/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
