@@ -76,16 +76,17 @@ namespace Bakery
         string stringTemp = Console.ReadLine();
         int inputtedBreadAmount = 0;
         Int32.TryParse(stringTemp, out inputtedBreadAmount);
-        if (inputtedBreadAmount <= 0 || inputtedBreadAmount > 7)
+        if (inputtedBreadAmount < 1 || inputtedBreadAmount > 6)
         {
-          Console.WriteLine("Please input number from 1-7");
+          Console.WriteLine("Please input number from 1-6");
           Main();
         }
+
         else
         {
           Bread breadTotal = new Bread(inputtedBreadAmount);
-          Console.WriteLine($"${breadTotal.AmountBread}");
-          Console.WriteLine($"${breadTotal.CalculateTotalBread()}");
+          Console.WriteLine($"Your ordered {breadTotal.AmountBread} loaves");
+          Console.WriteLine($"Your total is ${breadTotal.CalculateTotalBread()}");
         }
 
       }
@@ -96,7 +97,7 @@ namespace Bakery
         string stringTempP = Console.ReadLine();
         int inputtedPastriesAmount = 0;
         Int32.TryParse(stringTempP, out inputtedPastriesAmount);
-        if (inputtedPastriesAmount < 0 || inputtedPastriesAmount > 7)
+        if (inputtedPastriesAmount < 1 || inputtedPastriesAmount > 10)
         {
           Console.WriteLine("That is too much or not enough! Try Again");
           Main();
@@ -104,9 +105,10 @@ namespace Bakery
         else
         {
           Pastries pastryTotal = new Pastries(inputtedPastriesAmount);
-          Console.WriteLine($"${pastryTotal.AmountPastries}");
-          Console.WriteLine($"${pastryTotal.CalculateTotalPastries()}");
+          Console.WriteLine($"You have {pastryTotal.AmountPastries} in your cart.");
+          Console.WriteLine($"Your total is ${pastryTotal.CalculateTotalPastries()}");
         }
+
       }
 
 
@@ -121,7 +123,7 @@ namespace Bakery
         string stringTempP = Console.ReadLine();
         int inputtedPastriesAmount = 0;
         Int32.TryParse(stringTempP, out inputtedPastriesAmount);
-        if (inputtedPastriesAmount < 0 || inputtedPastriesAmount > 7 || inputtedBreadAmount <= 0 || inputtedBreadAmount > 7)
+        if (inputtedPastriesAmount < 1 || inputtedPastriesAmount > 10 || inputtedBreadAmount < 1 || inputtedBreadAmount > 6)
         {
           Console.WriteLine("Oops I think you meant something else");
           Main();
@@ -131,7 +133,11 @@ namespace Bakery
           Bread breadTotal = new Bread(inputtedBreadAmount);
           Pastries pastryTotal = new Pastries(inputtedPastriesAmount);
           int total = (pastryTotal.CalculateTotalPastries() + breadTotal.CalculateTotalBread());
-          Console.WriteLine($"Your total cost is {total}");
+          Console.WriteLine($"Your ordered {breadTotal.AmountBread} loave(s).");
+          Console.WriteLine($"Your total for the bread is ${breadTotal.CalculateTotalBread()}");
+          Console.WriteLine($"You have {pastryTotal.AmountPastries} pastry/pastries in your cart.");
+          Console.WriteLine($"Your total for the pastry/pastries is ${pastryTotal.CalculateTotalPastries()}");
+          Console.WriteLine($"Your total cost is ${total}");
         }
       }
     }
